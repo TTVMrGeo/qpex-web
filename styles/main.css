@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    background-image: url("pics/WP.jpg");
     color: #fff;
     min-height: 100vh;
     display: flex;
@@ -7,10 +7,25 @@ body {
     align-items: center;
     justify-content: center;
     padding: 20px;
+    overflow: hidden;
 }
 
 .container {
     width: 100%;
     max-width: 500px;
     text-align: center;
+}
+
+.btn {
+  background-color: DodgerBlue; /* Blue background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 12px 16px; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
 }

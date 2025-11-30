@@ -20,6 +20,6 @@ function preloadImages(array) {
     }
 }
 
-preloadImages(["styles/pics/WP.jpg"]);
+preloadImages(["styles/pics/WP.jpg", "styles/pics/logo.png"]);
 
 //* Other
